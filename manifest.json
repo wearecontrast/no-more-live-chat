@@ -1,0 +1,17 @@
+{
+   "name": "No More Live Chat",
+   "version": "1.0",
+   "manifest_version": 2,
+   "background": {
+       "scripts": ["background.js"]
+   },
+   "permissions": [
+       "webRequest",
+       "webRequestBlocking",
+	   "<all_urls>",
+	   "tabs"
+   ],
+   "browser_action": {
+		"default_icon": "icon.png"
+	}
+}
